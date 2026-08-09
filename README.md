@@ -22,9 +22,11 @@ The public work here focuses on three related questions:
 
 An exploration of traceable industrial AI workflows using synthetic manufacturing data, device context, and document retrieval. The project currently includes FastAPI, React, LangGraph, tool calling, and an experimental self-built RAG layer. MCP remains a future direction.
 
-### [PoseidonAI](https://github.com/RocketWill/PoseidonAI-Server)
+### PoseidonAI
 
-An AI model-training platform covering dataset management, training workflows, evaluation, and web-based management interfaces. The project represents system integration across the path from data to model workflows.
+[Server](https://github.com/RocketWill/PoseidonAI-Server) · [Client](https://github.com/RocketWill/PoseidonAI-Client)
+
+An end-to-end industrial computer vision platform covering dataset preparation, training configuration, GPU task execution, evaluation, result visualization, model export, and deployment integration.
 
 ### [Semiconductor Inspection Knowledge](https://github.com/RocketWill/semiconductor-inspection-knowledge)
 
@@ -32,7 +34,17 @@ An ongoing set of technical notes connecting materials science, semiconductor fu
 
 ### [ByteWhisperer](https://github.com/RocketWill/ByteWhisperer)
 
-C++, Python, and C# examples for invoking a YOLOv8 inference DLL, with a focus on AI model integration across different software environments.
+A cross-language reference for integrating native inference SDKs with C++, Python, and C#. It covers FFI boundaries, data mapping, buffer transfer, and resource lifecycle, using Ultralytics-based inference as one practical example.
+
+## Earlier project
+
+### [MLCatie Emotion Chat](https://github.com/RocketWill/MLCatie-emotion-chatapp)
+
+A 2019 Peking University Machine Learning course project combining Chinese sentiment classification, a Flask inference API, and a React/Firebase realtime chat application.
+
+Under the Ministry of Education–Microsoft Industry-University Cooperative Education Program, the project team was rated **Outstanding Team (优秀团队)**.
+
+[Chat client](https://github.com/RocketWill/MLCatie-emotion-chatapp) · [Sentiment API](https://github.com/RocketWill/lstm-sentiment-flask-api) · [Live interface](https://mlcatie-emotion-chatapp.firebaseapp.com/)
 
 ## Background
 
