@@ -30,7 +30,7 @@ An end-to-end industrial computer vision platform covering dataset preparation, 
 
 ### Auto-Annotation Infrastructure
 
-[Orchestrator](https://github.com/RocketWill/lkdi-auto-anno) · [Serverless Inference Foundry](https://github.com/RocketWill/serverless-inference-foundry)
+[Annotation Inference Orchestrator](https://github.com/RocketWill/annotation-inference-orchestrator) · [Serverless Inference Foundry](https://github.com/RocketWill/serverless-inference-foundry)
 
 A two-part inference architecture connecting Flask and Celery task orchestration with independently deployed Nuclio GPU functions for 2D and 3D annotation workflows.
 
