@@ -28,6 +28,12 @@ An exploration of traceable industrial AI workflows using synthetic manufacturin
 
 An end-to-end industrial computer vision platform covering dataset preparation, training configuration, GPU task execution, evaluation, result visualization, model export, and deployment integration.
 
+### Auto-Annotation Infrastructure
+
+[Orchestrator](https://github.com/RocketWill/lkdi-auto-anno) · [Nuclio functions](https://github.com/RocketWill/lkdi-serverless)
+
+A two-part inference architecture connecting Flask and Celery task orchestration with independently deployed Nuclio GPU functions for 2D and 3D annotation workflows.
+
 ### [Semiconductor Inspection Knowledge](https://github.com/RocketWill/semiconductor-inspection-knowledge)
 
 An ongoing set of technical notes connecting materials science, semiconductor fundamentals, electrical characterization, failure analysis, and optical inspection.
